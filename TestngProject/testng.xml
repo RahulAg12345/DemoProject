@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testing" thread-count="3" parallel="tests">
+	<test name="Demo Testing">
+		<classes>
+			<class name="Demo.Elements"></class>
+		</classes>
+	</test>
+	
+	<test name="Demo Testing2">
+		<classes>
+			<class name="Demo.Frames"></class>
+		</classes>
+	</test>
+	
+	<test name="Demo Testing3">
+		<classes>
+			<class name="Demo.Forms"></class>
+		</classes>
+	</test>
+</suite>
