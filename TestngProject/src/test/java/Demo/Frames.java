@@ -116,7 +116,7 @@ public class Frames extends TestCae_Commonpart {
 	System.out.println("Size of cookies:" +cookies.size());
 	
 	for(Cookie Cookie:cookies) {
-		System.out.println(Cookie.getName()+":"+Cookie.getValue());
+		//System.out.println(Cookie.getName()+":"+Cookie.getValue());
 	}
 	
 	
